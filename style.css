@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, black,rgb(34, 33, 33),rgb(144, 140, 140));
+}
+
+nav{
+    height: 10vh;
+    
+}
+.head nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+h2{
+    position: relative;
+    left: -250px;
+    top: -5px;
+    color: whitesmoke;
+}
+
+li button{
+    position: relative;
+    right: -250px;
+    border-radius: 20px;
+    padding: 10px 40px;
+    background-color: rgb(247, 3, 76);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    margin:0 30px ;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+   
+    height: 80vh;
+    width: 100%;
+   
+}
+
+.main1{
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 25%;
+    height: 20%;
+
+}
+
+.main1 h1{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    color: whitesmoke;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.main1 p{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.main1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 7px;
+    
+}
+
+.footer{
+   
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+img{
+    height: 20px;
+    margin: 6px;
+    position: relative;
+    left: 50px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+    transition: .5s;
+}
+li:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+p.let{
+    color: whitesmoke;
+    position: relative;
+    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p .first{
+    font-size: 20px;
+}
+
+input{
+    padding: 13px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 35px;
+    
+}
+
+span button{
+position: relative;
+right: 115px;
+padding: 9px 23px;
+border-radius: 15px;
+border: none;
+background-color: rgb(250, 0, 78);
+color: whitesmoke;
+
+}
+
+span.surname{
+    color: rgb(247, 3, 76);
+}
+span.lio{
+    color: rgb(247, 3, 76);
+}
+
+.saroj{
+    position: relative;
+    left: 70%;
+    top: 10%;
+    height: 300px;
+    border: red solid 2px;
+    display: flex;
+}
